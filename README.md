@@ -7,7 +7,7 @@ The system uses commercially available QX200 microfluidics chips from BioRad QX2
 
 ## The MANATEE
 
-The MANATEE manifold and tray were 3D printed using SLS with plastic polyamide 11: PA 11 plastic. 3D objects were uploaded to Shapeways (https://www.shapeways.com/) and ordered for 3D printing. See “3D_objects” folder for the 3D printing files. SLS was chosen since extrusion-based 3D printing tends to have a slightly ribbed/uneven surface and to allow the wells on the microfluidics chip to be completely sealed off I wanted a super smooth finish. The tray could be printed using standard extrusion-based 3D printing though since its function is mainly to keep the rubber gasket and the microfluidics chip secured. The MANATEE was designed so that the Manifold can be clamped onto the tray with a vice (or similar) and even pressure applied.
+The MANATEE manifold and tray were 3D printed using SLS with plastic polyamide 11: PA 11 plastic. 3D objects were uploaded to [Shapeways](https://www.shapeways.com/){:target="_blank"}. and ordered for 3D printing. See “3D_objects” folder for the 3D printing files. SLS was chosen since extrusion-based 3D printing tends to have a slightly ribbed/uneven surface and to allow the wells on the microfluidics chip to be completely sealed off I wanted a super smooth finish. The tray could be printed using standard extrusion-based 3D printing though since its function is mainly to keep the rubber gasket and the microfluidics chip secured. The MANATEE was designed so that the Manifold can be clamped onto the tray with a vice (or similar) and even pressure applied.
 
 ![Alt text](./images/MANATEE_design.png?raw=true "MANATEE 3D design")
 
@@ -41,7 +41,7 @@ There are two main parts of the circuit: the pressure gauge and the solenoid. Th
 
 I used an MPX5100 DP – a dual port differential pressure sensor (unlike the diagram it actually has 6 pins, but as in the diagram above, only the first three pins are used) which measures the difference in pressure between the two ports- one exposed to atmospheric pressure and the other one connected to the MANATEE.
 
-In brief, the MPX5100 DP pressure gauge is connected to an Analog input pin on the Arduino (A0 here) and it is connected to power and ground. Code for pressure gauge was adapted from [here](https://circuits4you.com/2016/05/13/arduino-pressure-measurement/). As a quick sanity check that the calibration was correct, I checked the calibrated pressure against the observed output voltage and compared that to the manufacturer’s datasheet.
+In brief, the MPX5100 DP pressure gauge is connected to an Analog input pin on the Arduino (A0 here) and it is connected to power and ground. Code for pressure gauge was adapted from [here](https://circuits4you.com/2016/05/13/arduino-pressure-measurement/){:target="_blank"}. As a quick sanity check that the calibration was correct, I checked the calibrated pressure against the observed output voltage and compared that to the manufacturer’s datasheet.
 
 ![Alt text](./images/calibration.png?raw=true "Calibrating Pressure Gauge")
 
