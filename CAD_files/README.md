@@ -1,1 +1,1 @@
-This folder contains the CAD files for 3D printing the MANATEE Manifold and Tray. I've uploaded both the designs as ".stl" files. 
+This folder contains the CAD files for 3D printing the MANATEE Manifold and Tray. I've uploaded both the designs as ".stl" files. You can also find the design and project description on "Thingiverse" [here](https://www.thingiverse.com/thing:6174004){:target="_blank"}.
