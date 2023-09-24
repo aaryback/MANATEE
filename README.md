@@ -1,4 +1,4 @@
-# Home-made Emulsions using MANATEE (MANifold Adapter and Tray for Easy Emulsions)
+# "DIY" Emulsions using MANATEE (MANifold Adapter and Tray for Easy Emulsions)
 ![Alt text](./images/emulsions_example.png?raw=true "Example Emulsions")
 
 Here are instructions for making uniform emulsions using a 3D printed manifold attached to a generic vacuum source and a simple Arduino-controlled vacuum release system. 
@@ -47,7 +47,7 @@ In brief, the MPX5100 DP pressure gauge is connected to an Analog input pin on t
 
 Powering of the solenoid valve is controlled by a MOSFET, which in turn is controlled by the Arduino. The solenoid valve is connected to power directly but ground is connected to the middle pin of the N-Channel MOSFET. Pin 1 of the MOSFET connects to ground, pin 2 is the “output” connected to the solenoid and pin 3 is connected to the Arduino and to ground via a 220 ohm pull-down resistor. When the MOSFET receives a “HIGH” signal from the Arduino it opens the channel and powers the solenoid on, which blocks the airflow between the vacuum source and the MANATEE. When the MOSFET receives a “LOW” signal from the Arduino it powers the solenoid off and opens the airflow between the vacuum source and the MANATEE. A Flyback diode is included between the power and ground of the solenoid. If you want to include an LED to visually show whether the solenoid is powered on or off, you can include that between pin 3 of the MOSFET and the Digital pin 22 on the Arduino. 
 
-The final Arduino code can be found in the folder “Arduino_code”.
+The final Arduino code can be found in the folder [Arduino_Code](./Arduino_Code).
 
 ### Connecting the tubes:
 
